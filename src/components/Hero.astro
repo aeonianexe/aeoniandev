@@ -1,0 +1,57 @@
+<div class="container">
+    <section class="intro">
+        <h1 id="hello">Hi, I'm Aeon</h1>
+        <p>Welcome to my cozy little corner of the internet. I’m in my final year of university, majoring in computer science, and I’m excited to pursue a career in front-end development!
+            <br>I’m a little bit of a hobby hoarder! Whether I’m playing video games or watching reality TV, reading something from my TBR or convincing myself I can learn to crochet in a day, I am always doing something. 
+            <br>I also love capturing moments from all of my travels with pictures, which you can view here.
+            <br><br>I’m currently based in New York City but my heart belongs to Boston.</p>
+        <div class="socials"></div>
+    </section>
+    <section class="polaroids">
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/beb03984-3184-423a-82a8-2c7dc257bbfa/d4bppqh-567096b9-b35e-4459-a478-a2950be266c3.png/v1/fill/w_900,h_1064/polaroid_png_by_eddycullenswanblack_d4bppqh-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA2NCIsInBhdGgiOiJcL2ZcL2JlYjAzOTg0LTMxODQtNDIzYS04MmE4LTJjN2RjMjU3YmJmYVwvZDRicHBxaC01NjcwOTZiOS1iMzVlLTQ0NTktYTQ3OC1hMjk1MGJlMjY2YzMucG5nIiwid2lkdGgiOiI8PTkwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.oLu8rhMmKG00KW-8cW43I5WPZV4a4-aczZvWpnf6MAo" alt="Polaroid">
+    </section>
+    <!--will be adding component for polaroid shape-->
+</div>
+<style>
+        html {
+            background: linear-gradient(225deg, rgba(2,0,36,1) 0%, rgba(68,45,68,1) 0%, rgba(24,19,24,1) 100%);
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Koulen', system-ui;
+            color: #B6A0B6;
+            margin: 0;
+            padding: 20px;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .intro {
+            flex: 2;
+            padding: 20px;
+            text-shadow: 3px 10px 10px rgba(0, 0, 0, 0.50);
+        }
+        .polaroids {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        #hello {
+            font-size: 6rem;
+        }
+        .intro p {
+            font-size: 2rem;
+        }
+        .polaroids img {
+            max-width: 100%;
+            filter: drop-shadow( 5px 10px 10px rgba(0, 0, 0, 0.75));
+            border-radius: 10px;
+        }
+</style>
